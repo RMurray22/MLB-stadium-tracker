@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Stadium extends Model {}
+class Team extends Model {}
 
-Stadium.init(
+Team.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -11,24 +11,20 @@ Stadium.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        stadium_name: {
+        team_name: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        stadium_city: {
+        team_location: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        stadium_state: {
-            type: DataTypes.STRING(2),
-            allowNull: false,
-        },
-        stadium_lon: {
-            type: DataTypes.DECIMAL,
-            allowNull: false,
-        },
-        stadium_lat: {
-            type: DataTypes.DECIMAL,
+        team_stadium: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'stadium',
+                key: 'id',
+            },
             allowNull: false,
         }
     },
@@ -36,8 +32,8 @@ Stadium.init(
         sequelize,
         freezeTableName: true,
         underscored: true,
-        modelName: 'stadium'
+        modelName: 'team'
     }
 );
 
-module.exports = Stadium;
+module.exports = Team;
