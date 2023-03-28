@@ -1,7 +1,11 @@
 {
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
     "dotenv": "^16.0.3",
     "express": "^4.17.1",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.3",
     "mysql2": "^2.2.1",
     "sequelize": "^6.3.5"
   }
