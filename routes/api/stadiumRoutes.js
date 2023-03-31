@@ -13,4 +13,15 @@ router.post("/", async (req, res) => {
   return res.json(stadiumData);
 });
 
-router.get();
+router.get("/:id", async (req, res) => {
+  try {
+    const stadiumData = await Stadium.findByPk(req.params.id);
+    if (!stadiumData) {
+      res.status(404).json({ message: "No stadium with this id!" });
+      return;
+    }
+    res.status(200).json(stadiumData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
