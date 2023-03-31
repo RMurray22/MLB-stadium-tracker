@@ -1,0 +1,17 @@
+[
+    {
+        "user_email": "michaelpwelle@gmail.com",
+        "user_password": "12345",
+        "user_favorite_team": 6
+    },
+    {
+        "user_email": "example@gmail.com",
+        "user_password": "12345",
+        "user_favorite_team": 1
+    },
+    {
+        "user_email": "testing@gmail.com",
+        "user_password": "12345",
+        "user_favorite_team": 18
+    }
+]

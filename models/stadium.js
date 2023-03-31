@@ -24,11 +24,11 @@ Stadium.init(
             allowNull: false,
         },
         stadium_lon: {
-            type: DataTypes.DECIMAL,
+            type: DataTypes.DECIMAL(9,6),
             allowNull: false,
         },
         stadium_lat: {
-            type: DataTypes.DECIMAL,
+            type: DataTypes.DECIMAL(9,6),
             allowNull: false,
         }
     },
@@ -36,6 +36,7 @@ Stadium.init(
         sequelize,
         freezeTableName: true,
         underscored: true,
+        timestamps: false,
         modelName: 'stadium'
     }
 );

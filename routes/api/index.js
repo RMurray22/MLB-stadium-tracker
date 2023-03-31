@@ -1,6 +1,10 @@
 const router = require("express").Router();
-const stadiums = require("./stadiumRoutes");
+const stadiumRoutes = require("./stadiumRoutes");
+const userRoutes = require("./userRoutes");
+const teamRoutes = require("./teamRoutes")
 
-router.use("/stadium", stadiums);
+router.use("/stadiums", stadiumRoutes);
+router.use("/users", userRoutes);
+router.use("/teams", teamRoutes);
 
 module.exports = router;
