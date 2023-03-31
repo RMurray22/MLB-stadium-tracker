@@ -1,0 +1,212 @@
+[
+    {
+    "stadium_name": "PETCO Park",
+    "stadium_city": "San Diego",
+    "stadium_state": "CA",
+    "stadium_lat": 32.7073,
+    "stadium_lon": -117.1566
+    },
+    {
+    "stadium_name": "Turner Field",
+    "stadium_city": "Atlanta",
+    "stadium_state": "GA",
+    "stadium_lat": 33.734805,
+    "stadium_lon": -84.389996
+    },
+    {
+    "stadium_name": "Citi Field",
+    "stadium_city": "New York",
+    "stadium_state": "NY",
+    "stadium_lat": 40.756944,
+    "stadium_lon": -73.845833
+    },
+    {
+    "stadium_name": "Progressive Field",
+    "stadium_city": "Cleveland",
+    "stadium_state": "OH",
+    "stadium_lat": 41.495833,
+    "stadium_lon": -81.685278
+    },
+    {
+    "stadium_name": "Oracle Park",
+    "stadium_city": "San Francisco",
+    "stadium_state": "CA",
+    "stadium_lat": 37.778611,
+    "stadium_lon": -122.389167
+    },
+    {
+    "stadium_name": "Target Field",
+    "stadium_city": "Minneapolis",
+    "stadium_state": "MN",
+    "stadium_lat": 44.981667,
+    "stadium_lon": -93.278333
+    },
+    {
+    "stadium_name": "Tropicana Field",
+    "stadium_city": "St. Petersburg",
+    "stadium_state": "FL",
+    "stadium_lat": 27.768333,
+    "stadium_lon": -82.653333
+    },
+    {
+    "stadium_name": "Globe Life Park in Arlington",
+    "stadium_city": "Arlington",
+    "stadium_state": "TX",
+    "stadium_lat": 32.751389,
+    "stadium_lon": -97.082778
+    },
+    {
+    "stadium_name": "Oriole Park at Camden Yards",
+    "stadium_city": "Baltimore",
+    "stadium_state": "MD",
+    "stadium_lat": 39.283889,
+    "stadium_lon": -76.621667
+    },
+    {
+    "stadium_name": "Oakland Coliseum",
+    "stadium_city": "Oakland",
+    "stadium_state": "CA",
+    "stadium_lat": 37.751667,
+    "stadium_lon": -122.200556
+    },
+    {
+    "stadium_name": "Guaranteed Rate Field",
+    "stadium_city": "Chicago",
+    "stadium_state": "IL",
+    "stadium_lat": 41.829908,
+    "stadium_lon": -87.633889
+    },
+    {
+    "stadium_name": "Wrigley Field",
+    "stadium_city": "Chicago",
+    "stadium_state": "IL",
+    "stadium_lat": 41.948038,
+    "stadium_lon": -87.65568
+    },
+    {
+    "stadium_name": "Angel Stadium of Anaheim",
+    "stadium_city": "Anaheim",
+    "stadium_state": "CA",
+    "stadium_lat": 33.800278,
+    "stadium_lon": -117.882778
+    },
+    {
+    "stadium_name": "PNC Park",
+    "stadium_city": "Pittsburgh",
+    "stadium_state": "PA",
+    "stadium_lat": 40.446944,
+    "stadium_lon": -80.005833
+    },
+    {
+    "stadium_name": "Dodger Stadium",
+    "stadium_city": "Los Angeles",
+    "stadium_state": "CA",
+    "stadium_lat": 34.073611,
+    "stadium_lon": -118.240646
+    },
+    {
+    "stadium_name": "Kauffman Stadium",
+    "stadium_city": "Kansas City",
+    "stadium_state": "MO",
+    "stadium_lat": 39.051098,
+    "stadium_lon": -94.48
+    },
+    {
+    "stadium_name": "Yankee Stadium",
+    "stadium_city": "New York",
+    "stadium_state": "NY",
+    "stadium_lat": 40.829167,
+    "stadium_lon": -73.926389
+    },
+    {
+    "stadium_name": "Busch Stadium",
+    "stadium_city": "St. Louis",
+    "stadium_state": "MO",
+    "stadium_lat": 38.6225,
+    "stadium_lon": -90.193056
+    },
+    {
+    "stadium_name": "Rogers Centre",
+    "stadium_city": "Toronto",
+    "stadium_state": "ON",
+    "stadium_lat": 43.641389,
+    "stadium_lon": -79.389167
+    },
+    {
+    "stadium_name": "Coors Field",
+    "stadium_city": "Denver",
+    "stadium_state": "CO",
+    "stadium_lat": 39.756111,
+    "stadium_lon": -104.994167
+    },
+    {
+    "stadium_name": "Fenway Park",
+    "stadium_city": "Boston",
+    "stadium_state": "MA",
+    "stadium_lat": 42.34625,
+    "stadium_lon": -71.09775
+    },
+    {
+    "stadium_name": "Citizens Bank Park",
+    "stadium_city": "Philadelphia",
+    "stadium_state": "PA",
+    "stadium_lat": 39.905833,
+    "stadium_lon": -75.166389
+    },
+    {
+    "stadium_name": "Nationals Park",
+    "stadium_city": "Washington",
+    "stadium_state": "DC",
+    "stadium_lat": 38.872778,
+    "stadium_lon": -77.0075
+    },
+    {
+    "stadium_name": "Chase Field",
+    "stadium_city": "Phoenix",
+    "stadium_state": "AZ",
+    "stadium_lat": 33.445278,
+    "stadium_lon": -112.066944
+    },
+    {
+    "stadium_name": "Comerica Park",
+    "stadium_city": "Detroit",
+    "stadium_state": "MI",
+    "stadium_lat": 42.339167,
+    "stadium_lon": -83.048611
+    },
+    {
+    "stadium_name": "Minute Maid Park",
+    "stadium_city": "Houston",
+    "stadium_state": "TX",
+    "stadium_lat": 29.756944,
+    "stadium_lon": -95.355556
+    },
+    {
+    "stadium_name": "Great American Ball Park",
+    "stadium_city": "Cincinnati",
+    "stadium_state": "OH",
+    "stadium_lat": 39.0975,
+    "stadium_lon": -84.506667
+    },
+    {
+    "stadium_name": "T-Mobile Park",
+    "stadium_city": "Seattle",
+    "stadium_state": "WA",
+    "stadium_lat": 47.591358,
+    "stadium_lon": -122.333
+    },
+    {
+    "stadium_name": "American Family Field",
+    "stadium_city": "Milwaukee",
+    "stadium_state": "WI",
+    "stadium_lat": 43.028333,
+    "stadium_lon": -87.971111
+    },
+    {
+    "stadium_name": "loanDepot Park",
+    "stadium_city": "Miami",
+    "stadium_state": "FL",
+    "stadium_lat": 25.778056,
+    "stadium_lon": -80.219722
+    }
+]
