@@ -1,12 +1,12 @@
 const router = require("express").Router();
 const { User } = require("../models");
-//const withAuth = require("../utils/auth");
+const withAuth = require("../utils/auth");
 
 router.get("/", async (req, res) => {
   try {
     const userData = await User.findAll({
       attributes: { exclude: ["password"] },
-      order: [["user_email", "ASC"]],
+      order: [["username", "ASC"]],
     });
 
     const users = userData.map((project) => project.get({ plain: true }));
@@ -28,6 +28,26 @@ router.get("/login", (req, res) => {
   }
 
   res.render("login");
+});
+
+// Use withAuth middleware to prevent access to route
+router.get('/profile', withAuth, async (req, res) => {
+  try {
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ['password'] },
+      include: [{ model: Team }],
+    });
+
+    const user = userData.get({ plain: true });
+
+    res.render('profile', {
+      ...user,
+      logged_in: true
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 module.exports = router;
