@@ -1,0 +1,152 @@
+[
+    {
+    "team_name": "Padres",
+    "team_location": "San Diego",
+    "team_stadium": "1"
+    },
+    {
+    "team_name": "Braves",
+    "team_location": "Atlanta",
+    "team_stadium": "2"
+    },
+    {
+    "team_name": "Mets",
+    "team_location": "New York",
+    "team_stadium": "3"
+    },
+    {
+    "team_name": "Guardians",
+    "team_location": "Cleveland",
+    "team_stadium": "4"
+    },
+    {
+    "team_name": "Giants",
+    "team_location": "San Francisco",
+    "team_stadium": "5"
+    },
+    {
+    "team_name": "Twins",
+    "team_location": "Minnesota",
+    "team_stadium": "6"
+    },
+    {
+    "team_name": "Rays",
+    "team_location": "Tampa Bay",
+    "team_stadium": "7"
+    },
+    {
+    "team_name": "Rangers",
+    "team_location": "Texas",
+    "team_stadium": "8"
+    },
+    {
+    "team_name": "Orioles",
+    "team_location": "Baltimore",
+    "team_stadium": "9"
+    },
+    {
+    "team_name": "Athletics",
+    "team_location": "Oakland",
+    "team_stadium": "10"
+    },
+    {
+    "team_name": "White Sox",
+    "team_location": "Chicago",
+    "team_stadium": "11"
+    },
+    {
+    "team_name": "Cubs",
+    "team_location": "Chicago",
+    "team_stadium": "12"
+    },
+    {
+    "team_name": "Angels of Anaheim",
+    "team_location": "Los Angeles",
+    "team_stadium": "13"
+    },
+    {
+    "team_name": "Pirates",
+    "team_location": "Pittsburgh",
+    "team_stadium": "14"
+    },
+    {
+    "team_name": "Dodgers",
+    "team_location": "Los Angeles",
+    "team_stadium": "15"
+    },
+    {
+    "team_name": "Royals",
+    "team_location": "Kansas City",
+    "team_stadium": "16"
+    },
+    {
+    "team_name": "Yankees",
+    "team_location": "New York",
+    "team_stadium": "17"
+    },
+    {
+    "team_name": "Cardinals",
+    "team_location": "St. Louis",
+    "team_stadium": "18"
+    },
+    {
+    "team_name": "Blue Jays",
+    "team_location": "Toronto",
+    "team_stadium": "19"
+    },
+    {
+    "team_name": "Rockies",
+    "team_location": "Colorado",
+    "team_stadium": "20"
+    },
+    {
+    "team_name": "Red Sox",
+    "team_location": "Boston",
+    "team_stadium": "21"
+    },
+    {
+    "team_name": "Phillies",
+    "team_location": "Philadelphia",
+    "team_stadium": "22"
+    },
+    {
+    "team_name": "Nationals",
+    "team_location": "Washington",
+    "team_stadium": "23"
+    },
+    {
+    "team_name": "Diamondbacks",
+    "team_location": "Arizona",
+    "team_stadium": "24"
+    },
+    {
+    "team_name": "Tigers",
+    "team_location": "Detroit",
+    "team_stadium": "25"
+    },
+    {
+    "team_name": "Astros",
+    "team_location": "Houston",
+    "team_stadium": "26"
+    },
+    {
+    "team_name": "Reds",
+    "team_location": "Cincinnati",
+    "team_stadium": "27"
+    },
+    {
+    "team_name": "Mariners",
+    "team_location": "Seattle",
+    "team_stadium": "28"
+    },
+    {
+    "team_name": "Brewers",
+    "team_location": "Milwaukee",
+    "team_stadium": "29"
+    },
+    {
+    "team_name": "Marlins",
+    "team_location": "Miami",
+    "team_stadium": "30"
+    }
+]
