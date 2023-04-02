@@ -1,25 +1,27 @@
-// const newFormHandler = async (event) => {
-//     event.preventDefault();
+const newFormHandler = async (event) => {
+    event.preventDefault();
   
-//     const name = document.querySelector('#stadium-name').value.trim();
-//     const favoriteTeam = document.querySelector('#favorite-team').value.trim();
+    //const name = document.querySelector('#stadium-name').value.trim();
+    const favoriteTeam = document.getElementById("favorite-team");
   
-//     if (name && favoriteTeam) {
-//       const response = await fetch(`/api/projects`, {
-//         method: 'POST',
-//         body: JSON.stringify({ name, favoriteTeam }),
-//         headers: {
-//           'Content-Type': 'application/json',
-//         },
-//       });
+    if (favoriteTeam) {
+      const id = favoriteTeam.getAttribute("data-userID");
+      const favorite_team = favoriteTeam.value;
+      const response = await fetch(`../../api/users/${id}`, {
+        method: 'PUT',
+        body: JSON.stringify({ favorite_team }),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
   
-//       if (response.ok) {
-//         document.location.replace('/profile');
-//       } else {
-//         alert('Failed to create stadium');
-//       }
-//     }
-//   };
+      if (response.ok) {
+        document.location.replace('/profile');
+      } else {
+        alert('Failed to update profile');
+      }
+    }
+  };
   
 //   const delButtonHandler = async (event) => {
 //     if (event.target.hasAttribute('data-id')) {
@@ -37,19 +39,28 @@
 //     }
 //   };
   
-//   document
-//     .querySelector('.new-stadium-form')
-//     .addEventListener('submit', newFormHandler);
+
   
 //   document
 //     .querySelector('.stadium-list')
 //     .addEventListener('click', delButtonHandler);
 
-const teams = ["Minnesota Twins", "New York Yankees", "Los Angeles Dodgers"];
+
+
+
 
 window.onload = function() {
-  var favoriteSel = document.getElementById("favorite-team");
-  for (let x in teams) {
-    favoriteSel.options[favoriteSel.options.length] = new Option(x, x);
-  }
+  let favoriteSel = document.getElementById("favorite-team");
+  console.log(favoriteSel);
+  fetch("../../api/teams")
+    .then((response) => response.json())
+    .then((data) => { 
+      for (let x in data) {
+        favoriteSel.options[favoriteSel.options.length] = new Option(`${data[x].location} ${data[x].name}`, data[x].id);
+      }
+    });
+
+    document
+    .querySelector('.update-profile-form')
+    .addEventListener('submit', newFormHandler);
 }
