@@ -1,18 +1,17 @@
 const router = require("express").Router();
-const { User, Team } = require("../models");
+const { Stadium, User, Team } = require("../models");
 const withAuth = require("../utils/auth");
 
 router.get("/", async (req, res) => {
   try {
-    const userData = await User.findAll({
-      attributes: { exclude: ["password"] },
-      order: [["username", "ASC"]],
+    const stadiumData = await Stadium.findAll({
+      order: [["name", "ASC"]],
     });
 
-    const users = userData.map((project) => project.get({ plain: true }));
+    const stadiums = stadiumData.map((stadium) => stadium.get({ plain: true }));
 
     res.render("homepage", {
-      users,
+      stadiums,
       logged_in: req.session.logged_in,
     });
   } catch (err) {
@@ -46,6 +45,24 @@ router.get('/profile', withAuth, async (req, res) => {
       logged_in: true
     });
   } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get("/stadiums", async (req, res) => {
+  try {
+    const stadiumData = await Stadium.findAll({
+      order: [["name", "ASC"]],
+    });
+
+    const stadiums = stadiumData.map((stadium) => stadium.get({ plain: true }));
+
+    res.render("stadiums", {
+      stadiums,
+      logged_in: req.session.logged_in,
+    });
+  } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
 });
