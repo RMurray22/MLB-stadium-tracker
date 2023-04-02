@@ -1,29 +1,27 @@
 <div class="row">
   <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+    <h2>Profile for {{username}}!</h2>
   </div>
 </div>
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Enter a stadium you've visted:</h3>
+    <h3>{{#if favorite_team}}Favorite Team: {{favorite_team}} {{/if}}</h3>
 
-    <form class="form new-project-form">
+    <form class="form update-profile-form">
       <div class="form-group">
-        <label for="stadium-name">Stadium Name:</label>
-        <input class="form-input" type="text" id="stadium-name" name="stadium-name" />
+        <label for="favorite-team">Select new favorite team:</label>
+        <select name="favorite-team" class="form-input" id="favorite-team" data-userID="{{id}}">
+          <option value="0" selected="selected">select team</option>
+        </select>
       </div>
       <div class="form-group">
-        <label for="favorite-team">Favorite Team:</label>
-        <textarea class="form-input" id="favorite-team" name="favorite-team"></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
+        <button type="submit" class="btn btn-primary">Save</button>
       </div>
     </form>
   </div>
 
-  {{#if stadiums.length}}
+  {{!-- {{#if stadiums.length}}
   <div class="col-md-6 project-list">
     <h3>Stadiums visted:</h3>
 
@@ -38,7 +36,7 @@
     </div>
     {{/each}}
   </div>
-  {{/if}}
+  {{/if}} --}}
 </div>
 
 <script src="./js/profile.js"></script>
