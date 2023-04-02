@@ -3,23 +3,20 @@ const Team = require("./team");
 const User = require("./user");
 
 Stadium.hasOne(Team, {
-    foreignKey: 'team_stadium',
-    onDelete: "CASCADE"
+    foreignKey: 'home_stadium'
 });
 
-Team.hasOne(User, {
-    foreignKey: "user_favorite_team",
+Team.hasMany(User, {
+    foreignKey: "favorite_team",
     onDelete: "CASCADE"
   });
 
 Team.belongsTo(Stadium, {
-    foreignKey: 'team_stadium',
-    onDelete: 'CASCADE'
+    foreignKey: 'home_stadium'
 });
 
 User.belongsTo(Team, {
-  foreignKey: "user_favorite_team",
-  onDelete: "CASCADE"
+  foreignKey: "favorite_team"
 });
 
 module.exports = { Stadium, Team, User };

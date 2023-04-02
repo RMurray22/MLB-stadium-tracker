@@ -11,15 +11,15 @@ Team.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        team_name: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        team_location: {
+        location: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        team_stadium: {
+        home_stadium: {
             type: DataTypes.INTEGER,
             references: {
                 model: 'stadium',

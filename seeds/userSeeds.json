@@ -1,17 +1,20 @@
 [
     {
-        "user_email": "michaelpwelle@gmail.com",
-        "user_password": "12345",
-        "user_favorite_team": 6
+        "username" : "michaelpwelle",
+        "email": "michaelpwelle@gmail.com",
+        "password": "12345",
+        "favorite_team": 6
     },
     {
-        "user_email": "example@gmail.com",
-        "user_password": "12345",
-        "user_favorite_team": 1
+        "username" : "test1",
+        "email": "example@gmail.com",
+        "password": "12345",
+        "favorite_team": 6
     },
     {
-        "user_email": "testing@gmail.com",
-        "user_password": "12345",
-        "user_favorite_team": 18
+        "username" : "test2",
+        "email": "testing@gmail.com",
+        "password": "12345",
+        "favorite_team": 18
     }
 ]

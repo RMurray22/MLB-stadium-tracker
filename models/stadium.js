@@ -11,23 +11,23 @@ Stadium.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        stadium_name: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        stadium_city: {
+        city: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        stadium_state: {
+        state: {
             type: DataTypes.STRING(2),
             allowNull: false,
         },
-        stadium_lon: {
+        longitude: {
             type: DataTypes.DECIMAL(9,6),
             allowNull: false,
         },
-        stadium_lat: {
+        latitude: {
             type: DataTypes.DECIMAL(9,6),
             allowNull: false,
         }
