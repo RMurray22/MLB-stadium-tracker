@@ -1,6 +1,11 @@
-<div class="text-center">
-  <h2>{{name}}</h2>
-  <p>{{{get_emoji}}}</p>
-  <p>{{description}}</p>
-  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+{{#each stadiums as |stadium| }}
+<div class="row mb-4 project">
+  <div class="col-md-5">
+    <h2>
+      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+      <a href="/stadium/{{stadium.id}}">{{stadium.name}}</a>
+    </h2>
+    <p>Located in: {{stadium.city}}, {{stadium.state}}</p>
+  </div>
 </div>
+{{/each}}

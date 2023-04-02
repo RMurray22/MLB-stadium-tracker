@@ -4,15 +4,9 @@
   <div class="col-md-5">
     <h2>
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
-      {{{get_emoji}}}
       <a href="/stadium/{{stadium.id}}">{{stadium.name}}</a>
     </h2>
-    <p>Created by {{stadium.user.name}} on {{format_date project.date_created}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{stadium.description}}
-    </p>
+    <p>Located in: {{stadium.city}}, {{stadium.state}}</p>
   </div>
 </div>
 {{/each}}
