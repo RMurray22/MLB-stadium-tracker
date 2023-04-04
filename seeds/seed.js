@@ -11,13 +11,7 @@ const seedDatabase = async () => {
   const stadiums = await Stadium.bulkCreate(stadiumSeeds);
 
   const teams = await Team.bulkCreate(teamSeeds);
-  
-  const users = await User.bulkCreate(userSeeds, {
-    individualHooks: true,
-    returning: true
-  });
-
-  
+    
   process.exit(0);
 };
 
