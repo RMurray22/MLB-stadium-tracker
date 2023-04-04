@@ -1,4 +1,16 @@
-{
+{  
+  "name": "mlb-stadium-tracker",
+"version": "1.0.0",
+"description": "Keep track of what stadiums you have visited",
+"main": "server.js",
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node server.js",
+  "seed": "node seeds/seed.js"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
