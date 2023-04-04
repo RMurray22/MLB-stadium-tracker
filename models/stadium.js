@@ -23,6 +23,10 @@ Stadium.init(
             type: DataTypes.STRING(2),
             allowNull: false,
         },
+        url: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
         longitude: {
             type: DataTypes.DECIMAL(9,6),
             allowNull: false,

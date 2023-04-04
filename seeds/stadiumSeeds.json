@@ -3,6 +3,7 @@
     "name": "PETCO Park",
     "city": "San Diego",
     "state": "CA",
+    "url": "https://www.mlb.com/padres/ballpark",
     "latitude": 32.7073,
     "longitude": -117.1566
     },
@@ -10,6 +11,7 @@
     "name": "Turner Field",
     "city": "Atlanta",
     "state": "GA",
+    "url": "https://www.mlb.com/braves/ballpark",
     "latitude": 33.734805,
     "longitude": -84.389996
     },
@@ -17,6 +19,7 @@
     "name": "Citi Field",
     "city": "New York",
     "state": "NY",
+    "url": "https://www.mlb.com/mets/ballpark",
     "latitude": 40.756944,
     "longitude": -73.845833
     },
@@ -24,6 +27,7 @@
     "name": "Progressive Field",
     "city": "Cleveland",
     "state": "OH",
+    "url": "https://www.mlb.com/guardians/ballpark",
     "latitude": 41.495833,
     "longitude": -81.685278
     },
@@ -31,6 +35,7 @@
     "name": "Oracle Park",
     "city": "San Francisco",
     "state": "CA",
+    "url": "https://www.mlb.com/giants/ballpark",
     "latitude": 37.778611,
     "longitude": -122.389167
     },
@@ -38,6 +43,7 @@
     "name": "Target Field",
     "city": "Minneapolis",
     "state": "MN",
+    "url": "https://www.mlb.com/twins/ballpark",
     "latitude": 44.981667,
     "longitude": -93.278333
     },
@@ -45,6 +51,7 @@
     "name": "Tropicana Field",
     "city": "St. Petersburg",
     "state": "FL",
+    "url": "https://www.mlb.com/rays/ballpark",
     "latitude": 27.768333,
     "longitude": -82.653333
     },
@@ -52,6 +59,7 @@
     "name": "Globe Life Park in Arlington",
     "city": "Arlington",
     "state": "TX",
+    "url": "https://www.mlb.com/rangers/ballpark/plan-your-visit",
     "latitude": 32.751389,
     "longitude": -97.082778
     },
@@ -59,6 +67,7 @@
     "name": "Oriole Park at Camden Yards",
     "city": "Baltimore",
     "state": "MD",
+    "url": "https://www.mlb.com/orioles/ballpark",
     "latitude": 39.283889,
     "longitude": -76.621667
     },
@@ -66,6 +75,7 @@
     "name": "Oakland Coliseum",
     "city": "Oakland",
     "state": "CA",
+    "url": "https://www.mlb.com/athletics/ballpark",
     "latitude": 37.751667,
     "longitude": -122.200556
     },
@@ -73,6 +83,7 @@
     "name": "Guaranteed Rate Field",
     "city": "Chicago",
     "state": "IL",
+    "url": "https://www.mlb.com/whitesox/ballpark",
     "latitude": 41.829908,
     "longitude": -87.633889
     },
@@ -80,6 +91,7 @@
     "name": "Wrigley Field",
     "city": "Chicago",
     "state": "IL",
+    "url": "https://www.mlb.com/cubs/ballpark",
     "latitude": 41.948038,
     "longitude": -87.65568
     },
@@ -87,6 +99,7 @@
     "name": "Angel Stadium of Anaheim",
     "city": "Anaheim",
     "state": "CA",
+    "url": "https://www.mlb.com/angels/ballpark",
     "latitude": 33.800278,
     "longitude": -117.882778
     },
@@ -94,6 +107,7 @@
     "name": "PNC Park",
     "city": "Pittsburgh",
     "state": "PA",
+    "url": "https://www.mlb.com/pirates/ballpark",
     "latitude": 40.446944,
     "longitude": -80.005833
     },
@@ -101,6 +115,7 @@
     "name": "Dodger Stadium",
     "city": "Los Angeles",
     "state": "CA",
+    "url": "https://www.mlb.com/dodgers/ballpark",
     "latitude": 34.073611,
     "longitude": -118.240646
     },
@@ -108,6 +123,7 @@
     "name": "Kauffman Stadium",
     "city": "Kansas City",
     "state": "MO",
+    "url": "https://www.mlb.com/royals/ballpark",
     "latitude": 39.051098,
     "longitude": -94.48
     },
@@ -115,6 +131,7 @@
     "name": "Yankee Stadium",
     "city": "New York",
     "state": "NY",
+    "url": "https://www.mlb.com/yankees/ballpark",
     "latitude": 40.829167,
     "longitude": -73.926389
     },
@@ -122,6 +139,7 @@
     "name": "Busch Stadium",
     "city": "St. Louis",
     "state": "MO",
+    "url": "https://www.mlb.com/cardinals/ballpark",
     "latitude": 38.6225,
     "longitude": -90.193056
     },
@@ -129,6 +147,7 @@
     "name": "Rogers Centre",
     "city": "Toronto",
     "state": "ON",
+    "url": "https://www.mlb.com/bluejays/ballpark",
     "latitude": 43.641389,
     "longitude": -79.389167
     },
@@ -136,6 +155,7 @@
     "name": "Coors Field",
     "city": "Denver",
     "state": "CO",
+    "url": "https://www.mlb.com/rockies/ballpark",
     "latitude": 39.756111,
     "longitude": -104.994167
     },
@@ -143,6 +163,7 @@
     "name": "Fenway Park",
     "city": "Boston",
     "state": "MA",
+    "url":"https://www.mlb.com/redsox/ballpark",
     "latitude": 42.34625,
     "longitude": -71.09775
     },
@@ -150,6 +171,7 @@
     "name": "Citizens Bank Park",
     "city": "Philadelphia",
     "state": "PA",
+    "url": "https://www.mlb.com/phillies/ballpark",
     "latitude": 39.905833,
     "longitude": -75.166389
     },
@@ -157,6 +179,7 @@
     "name": "Nationals Park",
     "city": "Washington",
     "state": "DC",
+    "url": "https://www.mlb.com/nationals/ballpark",
     "latitude": 38.872778,
     "longitude": -77.0075
     },
@@ -164,6 +187,7 @@
     "name": "Chase Field",
     "city": "Phoenix",
     "state": "AZ",
+    "url": "https://www.mlb.com/dbacks/ballpark",
     "latitude": 33.445278,
     "longitude": -112.066944
     },
@@ -171,6 +195,7 @@
     "name": "Comerica Park",
     "city": "Detroit",
     "state": "MI",
+    "url": "https://www.mlb.com/tigers/ballpark",
     "latitude": 42.339167,
     "longitude": -83.048611
     },
@@ -178,6 +203,7 @@
     "name": "Minute Maid Park",
     "city": "Houston",
     "state": "TX",
+    "url": "https://www.mlb.com/astros/ballpark",
     "latitude": 29.756944,
     "longitude": -95.355556
     },
@@ -185,6 +211,7 @@
     "name": "Great American Ball Park",
     "city": "Cincinnati",
     "state": "OH",
+    "url": "https://www.mlb.com/reds/ballpark",
     "latitude": 39.0975,
     "longitude": -84.506667
     },
@@ -192,6 +219,7 @@
     "name": "T-Mobile Park",
     "city": "Seattle",
     "state": "WA",
+    "url": "https://www.mlb.com/mariners/ballpark",
     "latitude": 47.591358,
     "longitude": -122.333
     },
@@ -199,6 +227,7 @@
     "name": "American Family Field",
     "city": "Milwaukee",
     "state": "WI",
+    "url": "https://www.mlb.com/brewers/ballpark",
     "latitude": 43.028333,
     "longitude": -87.971111
     },
@@ -206,6 +235,7 @@
     "name": "loanDepot Park",
     "city": "Miami",
     "state": "FL",
+    "url": "https://www.mlb.com/marlins/ballpark",
     "latitude": 25.778056,
     "longitude": -80.219722
     }
