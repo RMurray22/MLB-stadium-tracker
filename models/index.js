@@ -18,7 +18,8 @@ Team.belongsTo(Stadium, {
 });
 
 User.belongsTo(Team, {
-  foreignKey: "favorite_team"
+  foreignKey: "favorite_team",
+  onDelete: "CASCADE"
 });
 
 User.belongsToMany(Stadium, {
