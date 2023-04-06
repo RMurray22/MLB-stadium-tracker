@@ -6,7 +6,7 @@
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>{{#if favorite_team}}Favorite Team: {{favorite_team}} {{/if}}</h3>
+    <h3>{{#if favorite_team}}Favorite Team: <span id='fav-team'>{{team.location}} {{team.name}}</span> {{/if}}</h3>
 
     <form class="form update-profile-form">
       <div class="form-group">
@@ -15,28 +15,16 @@
           <option value="0" selected="selected">select team</option>
         </select>
       </div>
+      <div class="form-group" id="stadium-checkboxes">
+          <label for="stadiums-visited"><h3>Select which stadiums you have visited:</h3></label><br>
+      </div>
+
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Save</button>
       </div>
     </form>
   </div>
 
-  {{!-- {{#if stadiums.length}}
-  <div class="col-md-6 project-list">
-    <h3>Stadiums visted:</h3>
-
-    {{#each stadiums as |stadium|}}
-    <div class="row mb-2">
-      <div class="col-md-8">
-        <h4><a href="/project/{{stadium.id}}">{{stadium.name}}</a></h4>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{stadium.id}}">DELETE</button>
-      </div>
-    </div>
-    {{/each}}
-  </div>
-  {{/if}} --}}
 </div>
 
 <script src="./js/profile.js"></script>

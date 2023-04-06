@@ -5,7 +5,7 @@ router.get('/', async (req, res) => {
     // return a list of all games
     try{
       const gameData = await Game.findAll({
-        include: [{ model: User}, { model: Stadium }]
+        include: [{ model: User, model: Stadium }]
       });
       res.status(200).json(gameData);
     } catch (err){
@@ -27,9 +27,12 @@ router.get('/', async (req, res) => {
 
   router.post('/', async (req, res) => {
     try {
-      const gameData = await Game.create(req.body);
-      res.status(200).json(gameData);
-    } catch (err) {
+      const userGames = await Game.findAll({where: { user_id: req.body.user_id , stadium: req.body.stadium }});
+      if (!userGames) {
+        const gameData = await Game.create(req.body);
+        res.status(200).json(gameData);
+      } 
+    }catch (err) {
       res.status(400).json(err);
     }
   });
