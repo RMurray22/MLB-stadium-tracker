@@ -13,14 +13,14 @@ I want to see MLB Stadium information that links to the stadium's website.
 When I log in, I want my profile to show me my favorite team (and allow to set/change it).
 
 ## Installation:
-Node.js, Express.js, Handlebars, Mysql, API, file structure that lines up with MVC paradigm 
+Node.js, Express.js, Handlebars, Mysql, API, file structure that lines up with MVC paradigm, NodeMailer
 
-## Credits
+## Credits:
 Michael Welle: Setup models, figured out handlebars, some api calls from back end to front end. https://github.com/mwelle238
 Frederick Dirige: Handlebars, login logout, javascript and adding stadium url to seeds.js. https://github.com/fdirige
 Richard Murray: node.js, express.js, Mysql, Sequelize ORM, Slides. https://github.com/RMurray22
 
-## Screenshots
+## Screenshots:
 
 ![Screen shot of Stadium Tracker](./Images/StadiumTracker2.JPG)
 
