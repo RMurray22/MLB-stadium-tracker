@@ -14,24 +14,38 @@ router.get('/', async (req, res) => {
   });
 
   router.get('/:id', async (req, res) => {
-    // return a single game
+    // return all games for a user
     try{
-        const gameData = await Game.findByPk(req.params.id, {
+        const gameData = await Game.findAll( {where: { user_id: req.params.id}}, {
             include: [{ model: User}, { model: Stadium }]
         });
-        res.status(200).json(stadiumData);
+        res.status(200).json(gameData);
     } catch (err){
         res.status(500).json(err);
     }
   });
 
-  router.post('/', async (req, res) => {
+  router.post('/:id', async (req, res) => {
     try {
-      const userGames = await Game.findAll({where: { user_id: req.body.user_id , stadium: req.body.stadium }});
+      const userGames = await Game.findOne({where: { user_id: req.params.id , stadium: req.body }});
       if (!userGames) {
-        const gameData = await Game.create(req.body);
+        const gameData = await Game.create({ user_id: req.params.id, stadium: req.body });
         res.status(200).json(gameData);
       } 
+      res.status(200).json(userGames);
+    }catch (err) {
+      res.status(400).json(err);
+    }
+  });
+
+  router.delete('/:id', async (req, res) => {
+    try {
+      const userGames = await Game.destroy({where: { user_id: req.params.id , stadium: req.body }});
+      if (!userGames) {
+        res.status(404).json({ message: 'No game found with this id!' });
+        return;
+      }
+      res.status(200).json(userGames)
     }catch (err) {
       res.status(400).json(err);
     }
