@@ -5,7 +5,7 @@ const stadiumSeeds = require('./stadiumSeeds.json');
 const teamSeeds = require('./teamSeeds.json');
 
 const seedDatabase = async () => {
-  await sequelize.sync({ force: false, alter: true });
+  await sequelize.sync({ force: true });
 
   const stadiums = await Stadium.bulkCreate(stadiumSeeds);
 
